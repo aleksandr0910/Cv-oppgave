@@ -1,0 +1,121 @@
+body{
+    margin:0;
+    padding:0;
+    background-color: rgb(23, 39, 96);
+    background-size:cover;
+
+}
+
+
+
+/*Navbar*/
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    margin-top:-6px;
+    box-shadow:4px 6px;
+}
+
+li{
+    
+}
+
+li a{
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+
+/*Første div*/
+.firstdiv{
+    display:block;
+    margin-top: 40px;
+    margin-left: 30px;
+    margin-right:100px;
+    height:35px;
+    background-color: rgb(56, 120, 160);
+    border-radius:20px;
+    box-shadow:4px 6px;
+   
+    font-family:arial;
+}
+
+.firstdiv:hover #tekst{
+    
+    display:block;
+}
+
+.firstdiv:hover{
+    height:290px;
+}
+
+#tekst{
+    display: none;
+    margin:0;
+    
+}
+
+/*Andre div*/
+.seconddiv{
+    
+    display:block;
+    margin-top: 40px;
+    margin-left: 30px;
+    margin-right:100px;
+    height:35px;
+    background-color: rgb(130, 191, 253);
+    border-radius:20px;
+    box-shadow:4px 6px;
+    text-align:center ;
+    font-family:arial;
+}
+
+.seconddiv:hover{
+    height:200px;
+}
+
+
+/*tredje div*/
+.thirddiv{
+    display:block;
+    margin-top: 40px;
+    margin-left: 30px;
+    margin-right:100px;
+    height:35px;
+    background-color: rgb(130, 191, 253);
+    border-radius:20px;
+    box-shadow:4px 6px;
+    text-align:center ;
+    font-family:arial;
+}
+
+.thirddiv:hover{
+    height:200px;
+}
+.fourthdiv{
+    display:block;
+    margin-top: 40px;
+    margin-left: 30px;
+    margin-right:100px;
+    height:35px;
+    background-color:rgb(130, 191, 253);
+    border-radius:20px;
+    box-shadow:4px 6px;
+    text-align:center ;
+    font-family:arial;
+}
+.fourthdiv:hover{
+    height:200px;
+}
+
+footer{
+    background-color: #333;
+    height:200px;
+    margin-top:90px;
+}
